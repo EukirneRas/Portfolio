@@ -1,0 +1,25 @@
+/* Tokens globais: fundo azul profundo + laranja como cor de destaque */
+:root {
+  --navy: #071526;
+  --bg: #0c1f3a;
+  --surface: #12294a;
+  --border: #25497f;
+  --blue: #2f7bf0;
+  --blue-soft: #1b3f78;
+  --orange: #ff7a1a;
+  --orange-dark: #c2540a;
+  --heading: #ffffff;
+  --text: #e3ecfa;
+  --muted: #a3b8d8;
+  --radius: 14px;
+  --font-display: 'Bricolage Grotesque', system-ui, sans-serif;
+  --font-body: 'DM Sans', system-ui, sans-serif;
+}
+*, *::before, *::after { box-sizing: border-box; }
+html { scroll-behavior: smooth; scroll-padding-top: 72px; }
+body { margin: 0; font-family: var(--font-body); background: var(--bg); color: var(--text); line-height: 1.6; }
+h1, h2, h3 { font-family: var(--font-display); line-height: 1.15; margin: 0; color: var(--heading); }
+a { color: #7fb2ff; }
+img { max-width: 100%; display: block; }
+:focus-visible { outline: 3px solid var(--orange); outline-offset: 2px; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } * { transition: none !important; } }

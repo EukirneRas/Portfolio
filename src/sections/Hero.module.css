@@ -1,0 +1,12 @@
+.hero { background: linear-gradient(135deg, #071526 0%, #0f2f5e 100%); color: #fff; padding: 6rem 1.25rem 5rem; border-bottom: 8px solid var(--orange); }
+.inner { max-width: 1060px; margin: 0 auto; }
+.stack { margin: 0 0 1rem; color: var(--orange); font-weight: 700; font-size: 1.1rem; }
+.name { color: #fff; font-size: clamp(2.4rem, 8vw, 5rem); font-weight: 800; max-width: 14ch; }
+.role { font-size: clamp(1.1rem, 2.5vw, 1.5rem); color: #cfe0ff; margin: 1.25rem 0 .5rem; }
+.summary { max-width: 60ch; color: #a9c0e8; margin: 0 0 2rem; }
+.actions { display: flex; flex-wrap: wrap; gap: .75rem; }
+.actions a { padding: .8rem 1.5rem; border-radius: 10px; font-weight: 700; text-decoration: none; }
+.primary { background: var(--orange); color: var(--navy); }
+.primary:hover { background: #ff9340; }
+.secondary { border: 2px solid #5f84c4; color: #fff; }
+.secondary:hover { background: rgba(255,255,255,.1); }

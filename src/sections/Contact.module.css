@@ -1,0 +1,5 @@
+.grid { display: grid; grid-template-columns: 1.6fr 1fr; gap: 2rem; align-items: start; }
+.links { display: flex; flex-direction: column; gap: .75rem; }
+.links a { padding: .8rem 1.1rem; border-radius: 10px; background: var(--navy); color: #fff; text-decoration: none; font-weight: 700; border-left: 6px solid var(--orange); }
+.links a:hover { background: var(--blue); }
+@media (max-width: 720px) { .grid { grid-template-columns: 1fr; } }

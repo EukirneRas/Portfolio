@@ -1,0 +1,14 @@
+.header { position: sticky; top: 0; z-index: 10; background: var(--navy); }
+.nav { max-width: 1060px; margin: 0 auto; padding: 0 1.25rem; height: 60px; display: flex; align-items: center; justify-content: space-between; position: relative; }
+.logo { font-family: var(--font-display); font-weight: 800; font-size: 1.3rem; color: #fff; text-decoration: none; background: var(--orange); padding: .1rem .6rem; border-radius: 8px; }
+.menu { list-style: none; margin: 0; padding: 0; display: flex; gap: .25rem; }
+.menu a { display: block; padding: .5rem .9rem; color: #cfe0ff; text-decoration: none; border-radius: 8px; font-weight: 500; transition: background .2s, color .2s; }
+.menu a:hover { background: rgba(255,255,255,.1); color: #fff; }
+.menu a.active { color: var(--navy); background: var(--orange); }
+.toggle { display: none; background: transparent; color: #fff; border: 2px solid #5f84c4; border-radius: 8px; padding: .35rem .8rem; font: inherit; cursor: pointer; }
+
+@media (max-width: 720px) {
+  .toggle { display: block; }
+  .menu { display: none; position: absolute; top: 60px; left: 0; right: 0; flex-direction: column; background: var(--navy); padding: .5rem 1.25rem 1rem; }
+  .menu.open { display: flex; }
+}

@@ -1,0 +1,4 @@
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.25rem; }
+.group { background: var(--surface); border: 1px solid var(--border); border-left: 6px solid var(--blue); border-radius: var(--radius); padding: 1.25rem; display: flex; flex-direction: column; gap: .8rem; }
+.group h3 { font-size: 1.15rem; }
+.tags { display: flex; flex-wrap: wrap; gap: .4rem; }
