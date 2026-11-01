@@ -2,6 +2,8 @@
 
 Portfólio online em React com quatro seções: **Sobre mim**, **Projetos**, **Habilidades** e **Contato**. Paleta em azul e laranja, estilização com CSS Modules e layout responsivo.
 
+#Link: https://portfolio-eta-khaki-7um9ib0emr.vercel.app/
+
 ## Como rodar localmente
 
 ```bash
